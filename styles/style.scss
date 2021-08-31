@@ -5,6 +5,7 @@ body {
   background-image: url(../assets/svg/cactus-landscape.svg),
   linear-gradient(180deg, #FCFEE0 58.85%, #FFF7C6 100%);
   background-repeat: no-repeat, repeat;
+  background-size: 100%;
   background-position: bottom;
   font-family: $text;
 }
