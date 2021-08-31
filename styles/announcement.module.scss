@@ -37,7 +37,7 @@
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 415px) {
   .announcement {
     width: 50%;
     margin-top: 2%;
@@ -58,6 +58,18 @@
 
     .date {
       margin-top: -.7rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .announcement {
+    margin-top: 5%;
+  }
+
+  .names {
+    h1 {
+      font-size: 3.25rem;
     }
   }
 }

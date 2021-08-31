@@ -47,7 +47,7 @@
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 415px) {
   // top right bottom left
   .container {
     width: 35%;
@@ -68,6 +68,40 @@
     letter-spacing: -.5px;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  // top right bottom left
+  // margin: -2rem 4% 1rem 4%;
+  .container {
+    position: relative;
+    margin: 1rem 4%;
+    overflow: scroll;
+  }
+
+  .heading {
+    font-size: 1.85rem;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .pdf {
+    font-size: 1.5rem;
+    padding: .75rem;
+    margin-bottom: .25rem;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .container {
+    position: relative;
+    margin: 1rem 4%;
+    overflow: scroll;
+  }
+}
+
+
 
 @-webkit-keyframes heartbeat {
   from {

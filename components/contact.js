@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/contact.module.scss";
 import contact from "../assets/svg/contact-text.svg";
 
+// <a href="tel:781-715-5576">(781) 715-5576</a>
 const Contact = () => {
   return (
     <div className={styles.contact}>
@@ -12,12 +13,12 @@ const Contact = () => {
       <div className={styles.numbers}>
         <div>
           Stacy Geisler
-          <p>(863) 267-4089</p>
+          <p><a href="tel:863-267-4089">(863) 267-4089</a></p>
         </div>
 
         <div>
           Jason Boniface
-          <p>(781) 715-5576</p>
+          <p><a href="tel:781-715-5576">(781) 715-5576</a></p>
         </div>
       </div>
     </div>

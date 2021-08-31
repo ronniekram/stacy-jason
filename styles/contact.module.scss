@@ -48,15 +48,41 @@
       color: $secondaryText;
       font-family: $text;
       font-size: 1.15rem;
+
+      a {
+        text-decoration: none;
+        letter-spacing: normal;
+        color: $secondaryText;
+      }
     }
   }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 375px) {
   .contact {
     // top right bottom left
     width: max-content;
     margin-top: 15%;
-    margin-left: 10%;
+    // margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contact {
+    margin-top: 5%;
+  }
+
+  .heading {
+    margin: .75rem .5rem;
+    padding: .5rem;
+  }
+  
+  .numbers {
+    justify-content: space-between;
+
+    div {
+      font-size: 1.5rem;
+      margin: .5rem;
+    }
   }
 }

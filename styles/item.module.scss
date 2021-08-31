@@ -17,8 +17,22 @@
   margin-left: 1rem;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 414px) {
   .container {
     letter-spacing: normal;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+    font-size: .85rem;
+  }
+
+  .time {
+    font-size: 1rem;
+  }
+
+  .desc {
+    margin-left: .5rem;
   }
 }
