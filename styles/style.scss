@@ -1,0 +1,19 @@
+@import './globals.scss';
+
+body {
+  margin: auto;
+  background-image: url(../assets/svg/cactus-landscape.svg),
+  linear-gradient(180deg, #FCFEE0 58.85%, #FFF7C6 100%);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: $text;
+}
+
+@media only screen and (min-width: 400px) {
+  body {
+    background-image: url(../assets/svg/cactus-landscape.svg),
+    linear-gradient(180deg, #FCFEE0 58.85%, #FFF7C6 100%);
+    background-size: 50%, 100%;
+    background-position: bottom right, center;
+  }
+}
