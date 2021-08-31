@@ -23,6 +23,15 @@ const Nav = ({ open, setOpen }) => {
             </Link>
             <i className="far fa-sticky-note"></i>
           </div>
+
+          <hr />
+
+          <div onClick={() => setOpen(false)}>
+            <Link href="/">
+              Home
+            </Link>
+            <i className="fas fa-home"></i>
+          </div>
         </div>
       );
     } else {
