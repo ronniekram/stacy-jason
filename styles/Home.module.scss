@@ -4,12 +4,14 @@
   min-height: 100vh;
   height: 100vh;
 
-  i {
-    font-size: 5rem;
-    color: $accent;
-    // top right bottom left
-    margin: 2rem 1.25rem 2rem 2rem;
-    float: right;
+  .sunIcon {
+    i {
+      font-size: 5rem;
+      color: $accent;
+      // top right bottom left
+      margin: 2rem 1.25rem 2rem 2rem;
+      float: right;
+    }
   }
   
 }
@@ -40,16 +42,10 @@
 
 @media only screen and (max-width: 413px) {
   .container {
-    i {
-      display: none;
-    }
-  }
-}
-
-@media only screen and (max-height: 800px) {
-  .container {
-    i {
-      display: none;
+    .sunIcon {
+      i {
+        display: none;
+      }
     }
   }
 }

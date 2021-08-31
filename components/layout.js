@@ -13,7 +13,9 @@ const Layout = (props) => {
     <div className={styles.container}>
       <Nav open={open} setOpen={setOpen} />
       
-      <i className="far fa-sun"></i>
+      <div className={styles.sunIcon}>
+        <i className="far fa-sun"></i>
+      </div>
 
       <main className={styles.main}>
 
