@@ -13,7 +13,7 @@ const friday = {
   items: [
     {
       time: '6:30PM',
-      desc: 'Family of Bridge & Groom Dinner'
+      desc: 'Family of Bride & Groom Dinner'
     },
     {
       time: '8:30PM',
